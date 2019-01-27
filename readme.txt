@@ -1,9 +1,9 @@
 ################
 Project: Save As OFX file from Excel
-Purpose: To convert imple Data in Excel sheet to either OFX for import into account software
+Purpose: To convert simple Data in Excel sheet to  OFX for import into accounting software
 
-Version: 0.2
-Date written: 27 January 2019
+Version: 0.1
+Date modified: 27 January 2019
 
 Author: Gopal Chand
 
