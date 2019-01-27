@@ -5,8 +5,7 @@ Purpose: To convert imple Data in Excel sheet to either OFX for import into acco
 Version: 0.2
 Date written: 27 January 2019
 
-Author: Craig Lambie
-Author URI: craiglambie.com
+Author: Gopal Chand
 
 Data:
 3 Columns: Date, Description or Memo and Amount
