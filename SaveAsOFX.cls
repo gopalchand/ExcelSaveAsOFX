@@ -1,6 +1,6 @@
 Option Explicit
 
-Public Sub cbGenerateOFX()
+Public Sub SaveAsOFX()
 ' Generate OFX file from the data in the 'Export to OFX' spreadsheet
 
 On Error Resume Next
