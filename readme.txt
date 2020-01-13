@@ -2,13 +2,13 @@
 Project: Save As OFX file from Excel
 Purpose: To convert simple Data in Excel sheet to  OFX for import into accounting software
 
-Version: 0.1
-Date modified: 27 January 2019
+Version: 0.2
+Date modified: 13 January 2019
 
 Author: Gopal Chand
 
 Data:
-3 Columns: Date, Description or Memo and Amount
+3 Columns: Date, Description/Memo and Amount
 
 Routines: 
 SaveAsOFX - saves the current active sheet as a OFX file with the same name as the open file
@@ -26,3 +26,13 @@ Installation:
 1. Open Excel
 2. Open VBA (Alt + F11)
 3. Import the .cls file
+
+Known issues and workarounds:
+The presence of SGML predefined entities (", <, >, &, ') in the Description/Memo field is likely to lead to load failures
+
+For credit card accounts use the following:
+sTranAmount = -1# * rgeTransactionList.Offset(iTransaction, 2).Value
+
+If a separate memo field is available as column 3 and the amount as column 4 then use         
+sTranMemo = rgeTransactionList.Offset(iTransaction, 2).Value
+sTranAmount = rgeTransactionList.Offset(iTransaction, 3).Value
