@@ -9,6 +9,7 @@ Author: Gopal Chand
 
 Data:
 3 Columns: Date, Description/Memo and Amount
+(Description/Memo should be restricted to 18 characters)
 
 Routines: 
 SaveAsOFX - saves the current active sheet as a OFX file with the same name as the open file
@@ -21,6 +22,7 @@ Usage:
 4. On dialogue box, dropdown box "Macros in:" select "All Workbooks"
 5. Select SaveAsOFX as required
 6. Visit the location your excel file is saved to find the OFX file
+7. Change the BANKID, ACCTID and ACCTTYPE if necessary
 
 Installation:
 1. Open Excel
