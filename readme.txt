@@ -9,7 +9,7 @@ Author: Gopal Chand
 
 Data:
 3 Columns: Date, Description/Memo and Amount
-(Description/Memo should be restricted to 18 characters)
+(Description/Memo may have to be restricted to 18 characters for some applications)
 
 Routines: 
 SaveAsOFX - saves the current active sheet as a OFX file with the same name as the open file
