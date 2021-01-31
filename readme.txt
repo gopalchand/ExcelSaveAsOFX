@@ -22,7 +22,7 @@ Usage:
 4. On dialogue box, dropdown box "Macros in:" select "All Workbooks"
 5. Select SaveAsOFX as required
 6. Visit the location your excel file is saved to find the OFX file
-7. Change the BANKID, ACCTID and ACCTTYPE if necessary
+7. Change the BANKID (sort code), ACCTID (account number) and ACCTTYPE (CHECKING|SAVINGS|MONEYMRKT|CREDITLINE|CD) if necessary
 
 Installation:
 1. Open Excel
@@ -38,3 +38,6 @@ sTranAmount = -1# * rgeTransactionList.Offset(iTransaction, 2).Value
 If a separate memo field is available as column 3 and the amount as column 4 then use         
 sTranMemo = rgeTransactionList.Offset(iTransaction, 2).Value
 sTranAmount = rgeTransactionList.Offset(iTransaction, 3).Value
+
+References:
+https://www.ofx.net/downloads.html
